@@ -33,15 +33,15 @@ This project repo contains backend api codes coded on Laravel technology. If you
 
 ##### Landing page made with [Bootstrap Framework](www.getbootstrap.com)
 
-![Homepage](/screenshots/1.png?raw=true "Homepage")
+![Homepage](https://raw.githubusercontent.com/anburocky3/todoist-ui/master/screenshots/1.png?raw=true "Homepage")
 
 ##### Login Page
 
-![Loginpage](/screenshots/2.png?raw=true "Login Page")
+![Loginpage](https://raw.githubusercontent.com/anburocky3/todoist-ui/master/screenshots/2.png?raw=true "Login Page")
 
 ##### Todo screen
 
-![Todoapp](/screenshots/3.png?raw=true "Todoapp")
+![Todoapp](https://raw.githubusercontent.com/anburocky3/todoist-ui/master/screenshots/3.png?raw=true "Todoapp")
 
 ### Features
 
