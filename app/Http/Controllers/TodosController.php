@@ -62,7 +62,7 @@ class TodosController extends Controller
      */
     public function update(Request $request, Todos $todo)
     {
-        //
+        // TODO add priority & due date
         $data = $request->validate([
             'title' => 'required|string|min:4',
             'completed' => 'required|boolean'
@@ -70,9 +70,12 @@ class TodosController extends Controller
 
         $data['title'] = ucwords($request->title);  
         $data['user_id'] = auth()->user()->id;
-
+        $data['notes'] = ucwords($request->notes);
+        $data['due_date'] = $request->due_date;
+        $data['priority'] = $request->priority;
+                
         $todo->update($data);
-
+        
         return response($todo, 201);
     }
 

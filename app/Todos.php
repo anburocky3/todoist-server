@@ -10,6 +10,6 @@ class Todos extends Model
     public $timestamps = true;
 
     protected $fillable = [
-        'title', 'completed', 'user_id'
+        'title', 'completed', 'user_id', 'notes', 'due_date', 'priority'
     ];
 }
